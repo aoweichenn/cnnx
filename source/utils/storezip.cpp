@@ -3,7 +3,7 @@
 //
 
 
-#include <runtime/cnnx/utils/storezip.hpp>
+#include <utils/storezip.hpp>
 
 
 namespace pnnx
