@@ -37,7 +37,9 @@ add_library(cnnx_static STATIC
         source/ir/attribute.cpp
         source/ir/operator.cpp
         source/ir/operand.cpp
-        source/ir/graph.cpp)
+        source/ir/graph.cpp
+        source/utils/fp16_converter.cpp
+        source/utils/storezip.cpp)
 # 为静态库链接依赖项：
 target_link_libraries(cnnx_static PRIVATE
         pthread  # POSIX线程库
@@ -61,5 +63,5 @@ target_link_libraries(cnnx PRIVATE
         ${PROJECT_SOURCE_DIR}/third_party/library/openblas/libopenblas.a
         ${PROJECT_SOURCE_DIR}/third_party/library/gtest/libgtest.a
         ${PROJECT_SOURCE_DIR}/third_party/library/gtest/libgtest_main.a
-        ${PROJECT_SOURCE_DIR}/third_party/library/gtest/libgtest_main.a
+        ${PROJECT_SOURCE_DIR}/library/static/libcnnx_static.a
 )

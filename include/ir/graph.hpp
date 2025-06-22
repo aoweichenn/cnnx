@@ -4,7 +4,6 @@
 
 #ifndef CNNX_IR_GRAPH_HPP
 #define CNNX_IR_GRAPH_HPP
-#include <complex>
 #include <vector>
 #include <ir/operand.hpp>
 #include <ir/operator.hpp>
