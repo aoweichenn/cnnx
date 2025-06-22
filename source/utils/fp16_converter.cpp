@@ -2,7 +2,7 @@
 // Created by aowei on 25-6-20.
 //
 
-#include <runtime/cnnx/utils/fp16_converter.hpp>
+#include <utils/fp16_converter.hpp>
 
 namespace cnnx
 {

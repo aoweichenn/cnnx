@@ -34,12 +34,13 @@ add_library(cnnx_static STATIC
         include/ir/attribute.hpp
         include/ir/operand.hpp
         include/ir/operator.hpp
+        source/utils/fp16_converter.cpp
+        source/utils/storezip.cpp
         source/ir/attribute.cpp
         source/ir/operator.cpp
         source/ir/operand.cpp
         source/ir/graph.cpp
-        source/utils/fp16_converter.cpp
-        source/utils/storezip.cpp)
+        source/ir/parameter.cpp)
 # 为静态库链接依赖项：
 target_link_libraries(cnnx_static PRIVATE
         pthread  # POSIX线程库
