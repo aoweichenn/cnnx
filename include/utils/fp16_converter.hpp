@@ -2,8 +2,8 @@
 // Created by aowei on 25-6-19.
 //
 
-#ifndef RUNTIME_CNNX_UTILS_FP16_CONVERTER_HPP
-#define RUNTIME_CNNX_UTILS_FP16_CONVERTER_HPP
+#ifndef CNNX_UTILS_FP16_CONVERTER_HPP
+#define CNNX_UTILS_FP16_CONVERTER_HPP
 
 namespace cnnx
 {
@@ -11,4 +11,4 @@ namespace cnnx
 
     float float16_to_float32(unsigned short fp16);
 }
-#endif //RUNTIME_CNNX_UTILS_FP16_CONVERTER_HPP
+#endif //CNNX_UTILS_FP16_CONVERTER_HPP

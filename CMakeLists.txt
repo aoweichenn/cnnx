@@ -27,7 +27,17 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # 构建静态库配置：
 # 创建名为cnnx_static的静态库，源文件为main.cpp
-add_library(cnnx_static STATIC main.cpp)
+add_library(cnnx_static STATIC main.cpp
+        include/ir/attribute.hpp
+        include/ir/operand.hpp
+        include/ir/operator.hpp
+        include/ir/parameter.hpp
+        include/utils/fp16_converter.hpp
+        include/utils/storezip.hpp
+        source/ir/attribute.cpp
+        source/ir/operator.cpp
+        source/ir/operand.cpp
+        source/ir/graph.cpp)
 # 为静态库链接依赖项：
 target_link_libraries(cnnx_static PRIVATE
         pthread  # POSIX线程库
@@ -42,7 +52,18 @@ set_target_properties(cnnx_static PROPERTIES OUTPUT_NAME "cnnx_static")
 
 # 构建可执行文件配置：
 # 创建名为cnnx的可执行文件，源文件为main.cpp
-add_executable(cnnx main.cpp)
+add_executable(cnnx main.cpp
+        include/ir/attribute.hpp
+        include/ir/graph.hpp
+        include/ir/operand.hpp
+        include/ir/operator.hpp
+        include/ir/parameter.hpp
+        include/utils/fp16_converter.hpp
+        include/utils/storezip.hpp
+        source/ir/attribute.cpp
+        source/ir/operator.cpp
+        source/ir/operand.cpp
+        source/ir/graph.cpp)
 # 为可执行文件链接依赖项（与静态库相同）
 target_link_libraries(cnnx PRIVATE
         pthread

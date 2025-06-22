@@ -6,8 +6,8 @@
 #include <filesystem>
 #include <iostream>
 #include <algorithm>
-#include <runtime/cnnx/ir/graph.hpp>
-#include <runtime/cnnx/utils/storezip.hpp>
+#include <ir/graph.hpp>
+#include <utils/storezip.hpp>
 
 namespace cnnx
 {

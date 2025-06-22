@@ -3,7 +3,7 @@
 //
 
 #include <algorithm>
-#include <runtime/cnnx/ir/operand.hpp>
+#include <ir/operand.hpp>
 
 // Operand 类中函数的实现
 namespace cnnx

@@ -2,8 +2,8 @@
 // Created by aoweichen on 2025/5/28.
 //
 
-#ifndef RUNTIME_CNNX_UTILS_STOREZIP_HPP
-#define RUNTIME_CNNX_UTILS_STOREZIP_HPP
+#ifndef CNNX_UTILS_STOREZIP_HPP
+#define CNNX_UTILS_STOREZIP_HPP
 #include <cstdint>
 #include <map>
 #include <string>
@@ -122,4 +122,4 @@ namespace cnnx
     };
 }
 
-#endif //RUNTIME_CNNX_UTILS_STOREZIP_HPP
+#endif //CNNX_UTILS_STOREZIP_HPP

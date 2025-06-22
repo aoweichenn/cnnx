@@ -5,7 +5,7 @@
 // Operator 类声明，操作符
 
 #include <algorithm>
-#include <runtime/cnnx/ir/operator.hpp>
+#include <ir/operator.hpp>
 
 // Operator 类声明，操作符
 namespace cnnx

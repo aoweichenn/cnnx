@@ -2,14 +2,14 @@
 // Created by aowei on 25-6-21.
 //
 
-#ifndef RUNTIME_CNNX_IR_ATTRIBUTE_HPP
-#define RUNTIME_CNNX_IR_ATTRIBUTE_HPP
+#ifndef CNNX_IR_ATTRIBUTE_HPP
+#define CNNX_IR_ATTRIBUTE_HPP
 
 #include <complex>
 #include <map>
 #include <utility>
 #include <vector>
-#include <runtime/cnnx/ir/parameter.hpp>
+#include <ir/parameter.hpp>
 
 // Attribute 类声明
 namespace cnnx
@@ -50,4 +50,4 @@ namespace cnnx
     Attribute operator+(const Attribute& lhs, const Attribute& rhs);
 }
 
-#endif //RUNTIME_CNNX_IR_ATTRIBUTE_HPP
+#endif //CNNX_IR_ATTRIBUTE_HPP

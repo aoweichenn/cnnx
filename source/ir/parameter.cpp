@@ -2,7 +2,7 @@
 // Created by aowei on 25-6-21.
 //
 
-#include <runtime/cnnx/ir/parameter.hpp>
+#include <ir/parameter.hpp>
 
 // paramter 类中部分函数的实现
 namespace cnnx

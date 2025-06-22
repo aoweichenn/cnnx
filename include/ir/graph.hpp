@@ -2,12 +2,12 @@
 // Created by aowei on 25-6-21.
 //
 
-#ifndef RUNTIME_CNNX_IR_GRAPH_HPP
-#define RUNTIME_CNNX_IR_GRAPH_HPP
+#ifndef CNNX_IR_GRAPH_HPP
+#define CNNX_IR_GRAPH_HPP
 #include <complex>
 #include <vector>
-#include <runtime/cnnx/ir/operand.hpp>
-#include <runtime/cnnx/ir/operator.hpp>
+#include <ir/operand.hpp>
+#include <ir/operator.hpp>
 
 // Graph 类声明
 namespace cnnx
@@ -42,4 +42,4 @@ namespace cnnx
     };
 }
 
-#endif //RUNTIME_CNNX_IR_GRAPH_HPP
+#endif //CNNX_IR_GRAPH_HPP

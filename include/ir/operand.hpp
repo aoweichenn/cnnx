@@ -2,13 +2,13 @@
 // Created by aowei on 25-6-21.
 //
 
-#ifndef RUNTIME_CNNX_IR_OPERAND_HPP
-#define RUNTIME_CNNX_IR_OPERAND_HPP
+#ifndef CNNX_IR_OPERAND_HPP
+#define CNNX_IR_OPERAND_HPP
 
 #include <complex>
 #include <map>
 #include <vector>
-#include <runtime/cnnx/ir/parameter.hpp>
+#include <ir/parameter.hpp>
 // Operand 类声明，操作数
 // TODO: 分析设计思路
 namespace cnnx
@@ -38,4 +38,4 @@ namespace cnnx
     };
 }
 
-#endif //RUNTIME_CNNX_IR_OPERAND_HPP
+#endif //CNNX_IR_OPERAND_HPP

@@ -3,8 +3,8 @@
 //
 #include <cstring>
 #include <algorithm>
-#include <runtime/cnnx/ir/attribute.hpp>
-#include <runtime/cnnx/utils/fp16_converter.hpp>
+#include <ir/attribute.hpp>
+#include <utils/fp16_converter.hpp>
 
 // 辅助静态函数
 namespace cnnx

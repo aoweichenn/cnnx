@@ -2,15 +2,15 @@
 // Created by aowei on 25-6-21.
 //
 
-#ifndef RUNTIME_CNNX_IR_OPERATOR_HPP
-#define RUNTIME_CNNX_IR_OPERATOR_HPP
+#ifndef CNNX_IR_OPERATOR_HPP
+#define CNNX_IR_OPERATOR_HPP
 
 #include <complex>
 #include <map>
 #include <vector>
-#include <runtime/cnnx/ir/parameter.hpp>
-#include <runtime/cnnx/ir/attribute.hpp>
-#include <runtime/cnnx/ir/operand.hpp>
+#include <ir/parameter.hpp>
+#include <ir/attribute.hpp>
+#include <ir/operand.hpp>
 
 // Operator 类声明，操作符
 // TODO: 分析设计思路
@@ -43,4 +43,4 @@ namespace cnnx
     };
 }
 
-#endif //RUNTIME_CNNX_IR_OPERATOR_HPP
+#endif //CNNX_IR_OPERATOR_HPP
